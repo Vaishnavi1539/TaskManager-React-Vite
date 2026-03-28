@@ -1,12 +1,29 @@
-# React + Vite
+🚀 Assignly – Task Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Assignly** is a modern task management web application built with **React** and **Vite**, designed to help teams streamline task assignments, track progress, and boost productivity. Admins can create and assign tasks, while employees can accept, complete, or mark tasks as failed.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Admin Dashboard**
+  - Create and assign tasks to employees
+  - Track tasks by status: New, Active, Completed, Failed
+- **Employee Dashboard**
+  - View assigned tasks
+  - Accept tasks, mark them completed or failed
+  - Tasks dynamically categorized for easy tracking
+- **Persistent Data**
+  - Uses **localStorage** to simulate backend persistence
+- **Modern Tech Stack**
+  - React + Vite for fast development
+  - TailwindCSS for responsive design
+  - React Context API for state management
 
-## Expanding the ESLint configuration
+🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Vite, TailwindCSS  
+- **State Management:** React Context API  
+- **Storage:** LocalStorage  
+
+🚀 Installation
+1. Clone the repository:
+git clone https://github.com/your-username/assignly.git
