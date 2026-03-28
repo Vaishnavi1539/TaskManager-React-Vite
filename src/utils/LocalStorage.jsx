@@ -26,7 +26,7 @@ export const Employees = [
   },
   {
     id: 3,
-    firstName: "Rahul",
+    firstName: "Vaishnavi",
     email: "employee3@example.com",
     password: "123",
     taskNumber: { active: 2, newTask: 8, completed: 10, failed: 3 },
